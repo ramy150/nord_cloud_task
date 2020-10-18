@@ -39,9 +39,9 @@ Print out function output from points (x, y):
 
 ## Complexity Analysis
 
-#####The proposed solution will output solution in O(n) time complexity. 
+#####The proposed solution will output solution in O(n) time complexity. The solution is based on finding the maximal power value on each iteration.
 
-#####Note that trying to order the power in a list (table) may results in a time complexity varying between O(n log(n)) in worst cases or O(n) in best cases.
+#####Note that trying to order the power in a list (table) may results in a time complexity varying between O(n log(n)) in worst cases or O(n) in best cases. Thus, finding the maximal on each iteration is a better solution compared to an ordered list.
 
 ## Prerequisites
 
